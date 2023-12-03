@@ -1,0 +1,3 @@
+[submodule "olog"]
+	path = olog
+	url = git@github.com:Continuum-Corporation/olog.git
