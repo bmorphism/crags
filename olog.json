@@ -1,0 +1,195 @@
+{
+    "Olog": {
+      "Types": [
+        {
+          "ID": "T1",
+          "Name": "a rainforest",
+          "Description": "A dense forest in a region with high annual rainfall, noted for its layers of rich ecosystem and biodiversity.",
+          "Instances": []
+        },
+        {
+          "ID": "T2",
+          "Name": "a plant",
+          "Description": "Organisms that perform photosynthesis and are typically green.",
+          "Instances": []
+        },
+        {
+          "ID": "T3",
+          "Name": "an animal",
+          "Description": "A living organism characterized by voluntary movement, consumption of organic matter, and sensory organs.",
+          "Instances": []
+        },
+        {
+          "ID": "T4",
+          "Name": "a massive tree",
+          "Description": "Very large and tall trees that stand out in the forest environment.",
+          "Instances": [
+            {
+              "ID": "I1",
+              "Name": "mahogany"
+            },
+            {
+              "ID": "I2",
+              "Name": "cedar"
+            },
+            {
+              "ID": "I3",
+              "Name": "kapok"
+            }
+          ]
+        },
+        {
+          "ID": "T5",
+          "Name": "a canopy",
+          "Description": "The upper layer of the forest formed by the crowns of tall trees, blocking much sunlight.",
+          "Instances": []
+        },
+        {
+          "ID": "T6",
+          "Name": "the forest floor",
+          "Description": "The bottom layer of the forest, below the canopy, often sparsely lit and damp.",
+          "Instances": []
+        },
+        {
+          "ID": "T7",
+          "Name": "a smaller tree",
+          "Description": "Less tall trees that often grow below the forest canopy.",
+          "Instances": []
+        },
+        {
+          "ID": "T8",
+          "Name": "a bird",
+          "Description": "Warm-blooded, egg-laying, feathered vertebrates with wings.",
+          "Instances": [
+            {
+              "ID": "I4",
+              "Name": "macaw"
+            },
+            {
+              "ID": "I5",
+              "Name": "toucan"
+            },
+            {
+              "ID": "I6",
+              "Name": "parrot"
+            }
+          ]
+        },
+        {
+          "ID": "T9",
+          "Name": "a mammal",
+          "Description": "Warm-blooded vertebrates with hair or fur, most of whom nurture their young with milk.",
+          "Instances": [
+            {
+              "ID": "I7",
+              "Name": "sloth"
+            },
+            {
+              "ID": "I8",
+              "Name": "monkey"
+            },
+            {
+              "ID": "I9",
+              "Name": "jaguar"
+            },
+            {
+              "ID": "I10",
+              "Name": "tree frog"
+            }
+          ]
+        },
+        {
+          "ID": "T10",
+          "Name": "a fig tree",
+          "Description": "A genus of about 850 species of woody trees, shrubs, vines, epiphytes, and hemiepiphytes in the family Moraceae.",
+          "Instances": []
+        },
+        {
+          "ID": "T11",
+          "Name": "an ant",
+          "Description": "Social insects known for their structured colonies or nests and ability to lift materials many times their body weight.",
+          "Instances": []
+        },
+        {
+          "ID": "T12",
+          "Name": "an acacia tree",
+          "Description": "Trees and shrubs with compound pinnate leaves and clustered flowers, often with thorns.",
+          "Instances": []
+        }
+      ],
+      "Aspects": [
+        {
+          "ID": "A1",
+          "Label": "is home to",
+          "Source": "T1",
+          "Target": "T2"
+        },
+        {
+          "ID": "A2",
+          "Label": "is home to",
+          "Source": "T1",
+          "Target": "T3"
+        },
+        {
+          "ID": "A3",
+          "Label": "forms",
+          "Source": "T4",
+          "Target": "T5"
+        },
+        {
+          "ID": "A4",
+          "Label": "provides food and shelter for",
+          "Source": "T5",
+          "Target": "T3"
+        },
+        {
+          "ID": "A5",
+          "Label": "depends on",
+          "Source": "T3",
+          "Target": "T2"
+        },
+        {
+          "ID": "A6",
+          "Label": "captures sunlight",
+          "Source": "T5",
+          "Target": "T6"
+        },
+        {
+          "ID": "A7",
+          "Label": "thrive",
+          "Source": "T7",
+          "Target": "T6"
+        },
+        {
+          "ID": "A8",
+          "Label": "feed on",
+          "Source": "T8",
+          "Target": "T2"
+        },
+        {
+          "ID": "A9",
+          "Label": "inhabit",
+          "Source": "T9",
+          "Target": "T5"
+        },
+        {
+          "ID": "A10",
+          "Label": "provides food for",
+          "Source": "T10",
+          "Target": "T9"
+        },
+        {
+          "ID": "A11",
+          "Label": "protect",
+          "Source": "T11",
+          "Target": "T12"
+        },
+        {
+          "ID": "A12",
+          "Label": "provide nourishment for",
+          "Source": "T12",
+          "Target": "T11"
+        }
+      ]
+    }
+  }
