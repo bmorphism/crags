@@ -1,8 +1,7 @@
 # CRAGs
-
 Welcome to the home of Categorical RAGs (CRAGs). This project aims to provide a comprehensive framework for the representation and processing of knowledge using category theory. Here, you will find resources, discussions, and code related to CRAGs. Join us in exploring the fascinating intersection of category theory and knowledge representation.
 
-## Olog to Obsidian Vault Converter
+## ChatGPT history Olog to Obsidian Vault Converter
 
 This repository contains a Python script that converts a ChatGPT export into an olog (ontology log) in JSON format, and then into an Obsidian vault.
 
